@@ -1,0 +1,109 @@
+#rma-widget, #ad-container, .page {
+    width: 320px;
+    height: 480px;
+}
+
+#ad-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+.abs {
+  position: absolute;
+}
+
+#forget {
+  top: 80px;
+  left: 40px;
+  z-index: 1;
+}
+
+#more {
+  top: 80px;
+  left: 320px;
+  z-index: 2;
+}
+
+#lead {
+  left: 320px;
+  /* left: 35px; */
+  top: 220px;
+  z-index: 2;
+}
+
+#fees {
+  top: 220px;
+  /* left: 8px; */
+  left: -310px;
+  z-index: 2;
+}
+
+#help {
+  top: 350px;
+  left: 135px;
+}
+
+#coin1 {
+  top: 210px;
+}
+
+#coin2 {
+  top: 210px;
+  left: 150px;
+}
+
+#sk {
+  top: 96px;
+  position: absolute;
+}
+
+.page {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.hide {
+  display: none;
+}
+
+#logo {
+  position: absolute;
+  top: 65px;
+  left: 10px;
+  transform-origin: left top;
+}
+
+#third {
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+form input:first-child {
+  margin-top: 0.8rem;
+}
+
+form input {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+form input:not([type=submit],[type=image]) {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+form input[type=submit], form input[type=image] {
+  align-self: flex-end;
+}
